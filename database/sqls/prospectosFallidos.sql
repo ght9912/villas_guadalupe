@@ -1,0 +1,1 @@
+CREATE TABLE `villasdeguadalupe`.`prospectos_fallidos` (`id` BIGINT NOT NULL , `nombre` VARCHAR(255) NOT NULL , `telefono` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NULL DEFAULT NULL , `created_at` TIMESTAMP NULL DEFAULT NULL , `updated_at` TIMESTAMP NULL DEFAULT NULL ) ENGINE = InnoDB;
